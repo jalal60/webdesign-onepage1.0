@@ -1,0 +1,75 @@
+/*=======Responsive==========*/
+@media only screen and (max-width:991px){
+	 /*===Navigation Menu===*/
+	.main-menu .navbar-collapse > ul {
+		display: block;
+		padding: 25px 0;
+		overflow-x: hidden;
+		
+		max-height: calc(100vh - 100px);
+	}
+	.main-menu .navbar-collapse li {
+		display: block;
+		padding: 0 15px;
+		border-bottom: 1px dotted #ddd;
+	}
+	.main-menu .navbar-collapse li:first-child{
+		border-top: 1px dotted #ddd;
+	}
+	.main-menu .navbar-collapse li a {
+		padding: 10px 10px;
+		line-height: 22px;
+		color: #fff;
+		opacity: .7;
+	}
+	.navbar-toggler {
+	  border: none;
+	  outline: none;
+	}
+	.navbar-toggler:focus{
+		 outline: none;
+		 box-shadow: none;
+	}
+	.navbar-toggler:active{
+		 outline: none;
+		 box-shadow: none;
+	}
+}
+
+
+@media only screen and (max-width: 576px) {
+  .banner-area {
+    height: 100vh;
+  }
+  .banner-content h1 {
+    font-size: 40px;
+  }
+  .timeline-box h4 {
+    font-size: 20px;
+  }
+  .single-price {
+    margin-bottom: 20px;
+  }
+  .single-team{
+    margin-bottom: 20px;
+  }
+  .single-blog{
+    margin-bottom: 20px;
+  }
+  .about-content h2{
+    margin-top: 40px;
+  }
+
+  .projects-menu li {
+    margin: 0 3px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .projects-menu li.active {
+    padding: 5px 10px;
+  }
+  
+  
+ 
+  
+}
